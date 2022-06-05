@@ -69,11 +69,17 @@
 .section-1{
     background-color: black;
 }
+
+#carousel-slide{
+    scroll-snap-type: x mandatory;
+    scroll-padding:0 24px;
+}
 .carousel-inner{
     padding-left:15vmin;
     padding-right:15vmin;
     padding-top:3vmin;
     padding-bottom:3vmin;
+   
 }
 
 
